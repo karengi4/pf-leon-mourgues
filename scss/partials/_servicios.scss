@@ -1,0 +1,43 @@
+#servicios{
+  font-size: 1.25rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "servicioUno servicioDos servicioTres"
+  "servicioCuatro servicioCinco servicioSeis";
+  grid-column-gap: 5px;
+  margin: 16px;
+
+  .servicioUno{
+    grid-area: servicioUno;
+    @include serviciosPersonalizados()
+  }
+
+  .servicioDos{
+    grid-area: servicioDos;
+    @include serviciosPersonalizados()  
+  }
+
+  .servicioTres{
+    grid-area: servicioTres;
+    @include serviciosPersonalizados()  
+  }
+
+  .servicioCuatro{
+    grid-area: servicioCuatro;
+
+    @include serviciosPersonalizados()  
+  }
+
+  .servicioCinco{
+    grid-area: servicioCinco;
+    @include serviciosPersonalizados()  
+  }    
+
+  .servicioSeis{
+    grid-area: servicioSeis;
+    @include serviciosPersonalizados()  
+  }
+}

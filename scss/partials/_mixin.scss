@@ -1,0 +1,29 @@
+@mixin serviciosPersonalizados{
+  .serviciosTitulo {
+    color: $colortitulos;
+    list-style-type: none;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+  .serviciosParrafo {
+    background-color: $secondarycolor;
+    border-radius: 10%;
+    padding: 15px;
+  }
+}
+
+@mixin buttonPersonalizado{
+  .button {
+    background-color:$colorbutton;
+    border-radius: 15%;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 0.1rem;
+    color: #fff;
+
+    &:hover {
+      background-color: $colorhover;
+    }
+  }
+}

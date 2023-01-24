@@ -1,0 +1,32 @@
+.busquedas{
+  font-size: 1.5rem;
+  line-height: 70px;
+  text-align: center;
+
+  @include buttonPersonalizado()
+}
+
+.menuBusquedas {
+  font-size: 1.25rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  flex-wrap: wrap;
+
+  .busquedasRecuadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content:space-evenly;
+    background-color: $secondarycolor;
+    border-radius: 15px;
+    color:black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    @include buttonPersonalizado()
+    
+  }  
+}

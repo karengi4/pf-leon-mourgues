@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  &::selection{
+    color: violet;
+    background-color: teal;
+  }
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+}

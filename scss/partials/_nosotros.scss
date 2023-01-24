@@ -1,0 +1,47 @@
+.menuNosotros{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "nosotrosUno nosotrosDos nosotrosTres";
+  grid-column-gap: 5px;
+  margin: 16px;
+
+  .nosotros {
+    background-color: $secondarycolor;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .nosotrosImagen {
+      width: 100%;
+      height: 50%;
+    }
+
+    .nosotrosTitulo {
+      color: $colortitulos;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nosotrosParrafo {
+      text-align: justify;
+      color:black;
+    }
+  }
+
+  .nosotrosUno{
+    grid-area: nosotrosUno;
+  }
+
+  .nosotrosDos{
+    grid-area: nosotrosDos;
+  }
+
+  .nosotrosTres{
+    grid-area: nosotrosTres;
+  }  
+}
