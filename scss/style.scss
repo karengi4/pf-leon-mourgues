@@ -1,15 +1,14 @@
-@import "./partials/variables";
-@import "./partials/reset";
+// @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import "./partials/mixin";
-@import "./partials/header";
-@import "./partials/main";
-@import "./partials/footer";
+@import "../scss/partials/reset";
 
-@import "./partials/inicio";
-@import "./partials/nosotros";
-@import "./partials/servicios";
-@import "./partials/busquedas";
-@import "./partials/contacto";
+@import "../scss/partials/nav";
+@import "../scss/partials/hero";
+@import "../scss/partials/nosotros";
+@import "../scss/partials/servicios";
+@import "../scss/partials/busquedas";
+@import "../scss/partials/contacto";
 
-@import "./partials/queries";
+@import "../scss/partials/footer";
+
+@import "../scss/partials/medias"

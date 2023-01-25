@@ -1,79 +1,84 @@
-.contacto {
-  font-size: 1.25rem;
-  line-height: 3.125rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-  "encabezado encabezado"
-  "formulario video";
-  grid-column-gap: 5rem;
-  margin: 1rem;
- 
-  .encabezadoContacto {
-    font-family: 'Rubik Glitch', cursiva;
-    font-weight: 600;
-    text-align: center; 
-    grid-area: encabezado;
+.encabezado-contacto{
+  min-height:400px;
+  .parrafo-contacto{
+    font-size: 1.3rem;
   }
+}
 
-  section {
-    form{ 
-      width: 100%;
-      color: black;
-      grid-area: formulario;
-      display: flex;
-      flex-direction: column;
-      padding: 0.2rem;
-      box-shadow:
-       inset 0 -3em 3em rgba(243, 88, 49, 0.753),
-             0 0  0 2px rgba(180, 73, 19, 0.527),
-             0.3em 0.3em 1em rgba(225, 113, 9, 0.952);
-    
-      fieldset{
-        div{
-          .itemForm{
-            margin: 1rem;
-          }
-      
-          .inputContacto{
-          padding: 1% 5% 1% 4%
-          }
-        }
-              
-        .casillasForm{
-          margin: 1rem;
-        } 
-      }
-  
-      .textAreaForm{
-        height: 6.25rem;
-      }
-          
-      .casillasForm{
-        margin: 1rem;
-      }
-  
-      .botonesForm {
-        background-color: $colorbutton;
-        padding: 0.5rem;
-        margin: 0.5rem;;
-        border-radius: 0.6rem;
-        color: #000;
-        cursor: pointer;
-  
-        &:hover {
-          background-color: $colorhover;
-          transform: translate(20px);
-          text-transform:uppercase;
+.contacto{
+  .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+    .rectangulo{
+      margin-top: -5rem;
+      background-color:rgb(13, 109, 253);
+      border-radius: 10px;
+      box-shadow: 0px 1px 4px 1px white;
+      .row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .descripcion{
+          color: white;
+          font-size: 1.2rem;
         }
       }
+      button{
+        color: white;
+        font-weight: bold;
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 1.25em 2em;
+        margin: 10px;
+        border-radius: 100px;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+          background-color: white;
+          color: black;
+        }
+        i{
+          color: white;
+          font-size: 1.3rem;
+          transition: all 0.2s ease-in-out;
+        }
+        &:hover i{
+          color: black;
+        }
+      }
+    }   
+  }
+} 
+
+.container form{
+  min-width: 300px;
+  padding: 20px;
+  margin: 10px;
+  align-content: space-around;
+  color: black;
+  box-shadow: inset 0 -3em 3em rgba(102, 144, 233, 0.753), 
+  0 0 0 2px rgba(29, 7, 235, 0.527), 
+  0.3em 0.3em 1em rgba(12, 72, 128, 0.952);
+  button{
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      background-color: black;
+      color: white;
     }
-  }
-  
-  .videoContacto {
-    grid-area: video;
-    align-self: center;
-    justify-self: center;
-    width: 100%;
-  }
+    i{
+      color: black;
+      font-size: 1.3rem;
+      transition: all 0.2s ease-in-out;
+    }
+    &:hover i{
+      color: white;
+    }
+  }                          
 }

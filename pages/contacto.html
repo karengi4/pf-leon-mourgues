@@ -55,7 +55,6 @@
       </div>
     </nav>
 
-
     <section class="encabezado-contacto seccion-oscura text-center">
       <h3 class="seccion-titulo">
         CONTÁCTENOS
@@ -71,7 +70,7 @@
               ¡Hablemos!
             </div>
             <div class="col-12 col-md-4 descripcion">
-              Quiero mi asesoramiento personalizado.
+              Quiero recibir mi asesoramiento personalizado.
             </div>
             <div class="col-12 col-md-4">
               <a href="mailto:mikapital@miemail.com">
@@ -85,7 +84,46 @@
         </div>
       </div>
     </section>
+      
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="row">
+        <form class="col">
+          <div class="mb-3">
+            <label for="nombre" class="form-label ">Nombre y apellido</label>
+            <input id="nombre" class="form-control form-control-sm" type="text" placeholder="Ingrese su nombre y apellido">
+          </div>
 
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input id="email" class="form-control form-control-sm" type="text" placeholder="Ingrese su email">
+          </div>
+          
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Numero telefónico</label>
+            <input id="telefono" class="form-control form-control-sm" type="" placeholder="Sin el 0 y sin el 15">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Escribe tu consulta:</label>
+            <textarea id="comentarios" class="form-control"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="casilla">
+            <input id="casilla" type="checkbox">Quiero recibir el Newletter</label>
+          </div>
+
+          <button class="btn-info" type="submit" value="Enviar"> Enviar
+            <i class="bi bi-check-circle-fill"></i>
+          </button>
+          <button class="btn-info" type="reset" value="Resetear">Resetear
+            <i class="bi bi-x-square-fill"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
       <img class="footer-logo" src="../assets/images/footer.png" alt="Logo de la consultora">
       <p class="footer-texto text-center">Creamos oportunidades. <br>Potenciamos el talento.</p>

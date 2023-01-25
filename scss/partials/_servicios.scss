@@ -1,43 +1,42 @@
-#servicios{
-  font-size: 1.25rem;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: 
-  "servicioUno servicioDos servicioTres"
-  "servicioCuatro servicioCinco servicioSeis";
-  grid-column-gap: 5px;
-  margin: 16px;
-
-  .servicioUno{
-    grid-area: servicioUno;
-    @include serviciosPersonalizados()
+.servicios{
+  padding: 40px;
+  .contenedor{
+    max-width: 600px;
+    text-align: center;
   }
-
-  .servicioDos{
-    grid-area: servicioDos;
-    @include serviciosPersonalizados()  
-  }
-
-  .servicioTres{
-    grid-area: servicioTres;
-    @include serviciosPersonalizados()  
-  }
-
-  .servicioCuatro{
-    grid-area: servicioCuatro;
-
-    @include serviciosPersonalizados()  
-  }
-
-  .servicioCinco{
-    grid-area: servicioCinco;
-    @include serviciosPersonalizados()  
-  }    
-
-  .servicioSeis{
-    grid-area: servicioSeis;
-    @include serviciosPersonalizados()  
+  .servicios-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+    &:hover .overlay{
+      opacity: 1;
+    }
+    .galeria{
+      position: relative;
+      img{
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+        transition: all 0.2s ease;
+        &:hover{
+          opacity: 0.2;
+        }
+      }
+      .overlay{
+        transition: all 0.2s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        p{
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,11 @@
+.hero{
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+  .hero-principal{
+    padding: 5rem;
+    .hero-principal h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
