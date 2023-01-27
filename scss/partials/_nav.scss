@@ -4,5 +4,12 @@
   .navbar-collapse{
     align-items: center;
     justify-content: space-between;
+    .navbar-brand img{
+      width: 180px;
+    }
+  }
+  .active{
+    text-decoration: underline wavy coral;
+    text-underline-offset: 9px;
   }
 }

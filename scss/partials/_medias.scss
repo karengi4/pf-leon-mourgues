@@ -1,15 +1,28 @@
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
   .overlay p{
     font-size: 18px;
     }
+
+  .contacto{
+    .container{
+     .rectangulo{
+      margin-top: 0rem;
+      } 
+    }
   }
-  
-  @media screen and (max-width:767px){
+}
+
+
+  @media screen and (max-width:768px){
     .navbar-brand{
       display: none;
     }
   
     .hero-inferior{
+      flex-direction: column;
+    }
+    .contacto-inferior{
+      display: flex;
       flex-direction: column;
     }
   }
@@ -22,15 +35,5 @@
   
     .testimonio-texto{
       font-size: 18px;
-    }
-  }
-    
-  @media screen and (min-width: 700px){
-    .hero-intermedio{
-      max-width: 600px;
-    }
-  
-    .hero-inferior-imagen{
-      max-width: 600px;
     }
   }

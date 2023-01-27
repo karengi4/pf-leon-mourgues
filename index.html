@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+
     <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +33,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-toggler">
           <a class="navbar-brand" href="./index.html">
-            <img src="./assets/images/footer.png" width="150"alt="Logo de la consultora">
+            <img src="./assets/images/footer.png" alt="Logo de la consultora">
           </a>
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
@@ -56,28 +57,36 @@
     </nav>
 
     <!-- Seccion Hero -->
-    <section  class="hero align-items-stretch">
-      <div class="hero-principal d-flex flex-column justify-content-center align-items-center seccion-oscura">
+    <section  class="hero align-items-strech">
+      <div class="container-fluid hero-principal d-flex flex-column justify-content-center align-items-center seccion-oscura position-relative shadow">
         <h1 class="seccion-titulo">MI KAPITAL</h1>
         <h2 class="texto-blanco">Consultora de Recursos Humanos</h2>
-        <p>¡Comencemos a trabajar juntos! Asesorate con nosotros. <br> Conocé todos nuestros servicios  de asesoría estratégica y funcional.<br><a href="./pages/contacto.html" real="noopener noreferrer"><strong>¡CONTACTANOS!</strong></a></p>
+        <p>¡Comencemos a trabajar juntos! Asesorate con nosotros. <br> Conocé todos nuestros servicios  de asesoría estratégica y funcional.<br><a href="./pages/contacto.html" real="noopener noreferrer"><br><strong>¡CONTACTANOS!</strong></a></p>
       </div>
   
-      <div class="hero-intermedio d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-intermedio d-flex flex-column justify-content-arround align-items-center">
         <h3>NUESTRO MÉTODO DE TRABAJO SE SOSTIENE EN CINCO PILARES</h2>
-        <div class="ratio ratio-4x3" style="position: relative; width: 100%; height: 0; padding-top: 50.0000%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;will-change: transform;">
-          <iframe class="hero-intermedio-imagen img-fluid" loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;  border: none; padding: 0;margin: 0;"
-           src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFYMnzZN74&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-          </iframe>
+        <div class="container hero-intermedio-imagen">
+          <div class="ratio ratio-4x3" style="position: relative; width: 100%; height: 0; padding-top: 50.0000%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;will-change: transform;">
+            <iframe loading="lazy" style="position: absolute; width: 100%; height: ; top: 0; left: 0;  border: none; padding: 0;margin: 0;"
+              src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFYMnzZN74&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+          </div>
         </div>
       </div>
 
-      <div class="hero-inferior d-flex flex-row justify-content-center align-items-center">
-        <div>
-          <h3>Podes encontrar nuestras oficinas en la localidad de Viedma, Rio Negro.<h3><br>
-          <p>Nuestro horario de atención es de lunes a viernes de 8 a 13hs y de 18 a 21hs.</p>
-        </div>
-        <iframe class="hero-inferior-imagen img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48306.192448101625!2d-63.035159123604025!3d-40.824953755593626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95f698126201d8c5%3A0xc439042877c7ae8!2sViedma%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1674140416798!5m2!1ses!2sar" alt="Mapa de ubicación" width="400vw" height="300vh" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>
+      <div class="container hero-inferior">
+        <div class="row">
+          <div class="col-12 col-md-6  d-flex justify-content-center align-items-center">
+            <h3 class="d-bl">
+            Podes encontrar nuestras oficinas en la localidad de Viedma, Rio Negro.<br>
+            Nuestro horario de atención es de lunes a viernes de 8 a 13hs y de 18 a 21hs.
+            <h3>
+          </div>
+          <div class="col-12 col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48306.192448101625!2d-63.035159123604025!3d-40.824953755593626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95f698126201d8c5%3A0xc439042877c7ae8!2sViedma%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1674140416798!5m2!1ses!2sar" alt="Mapa de ubicación" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>
+          </div>
+       </div>
       </div>
     </section>
   
@@ -108,5 +117,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
   </body>
-
 </html>
