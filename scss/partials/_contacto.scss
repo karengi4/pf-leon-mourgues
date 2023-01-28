@@ -7,8 +7,6 @@
 
 .contacto{
   .container{
-    max-width: 1100px;
-    min-height: 200px;
     padding: 20px;
     .rectangulo{
       margin-top: -5rem;
@@ -17,15 +15,13 @@
       box-shadow: 0px 1px 4px 1px white;
       .row {
         width: 100%;
-        display: flex;
-        align-items: center;
         .descripcion{
-          color: white;
+          color: $texto-blanco;
           font-size: 1.2rem;
         }
       }
       button{
-        color: white;
+        color: $texto-blanco;
         font-weight: bold;
         background-color: transparent;
         border: 2px solid white;
@@ -35,7 +31,7 @@
         transition: all 0.2s ease-in-out;
         &:hover{
           background-color: white;
-          color: black;
+          color: $texto-negro;
         }
         i{
           color: white;
@@ -52,9 +48,10 @@
 
 .contacto-inferior{
   form{
+    width: 100%;
     padding: 10px;
     margin: 10px;
-    color: black;
+    color: $texto-negro;
     box-shadow: inset 0 -3em 3em rgba(102, 144, 233, 0.753), 
     0 0 0 2px rgba(29, 7, 235, 0.527), 
     0.3em 0.3em 1em rgba(12, 72, 128, 0.952);
@@ -83,6 +80,6 @@
   }
   .video-contacto{
     width: 100%;
-    height: 400px;
+    margin-top: 10px;
   }
 } 

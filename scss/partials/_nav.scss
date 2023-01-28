@@ -1,6 +1,6 @@
 .navbar{
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: $seccion-clara;
   .navbar-collapse{
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     }
   }
   .active{
-    text-decoration: underline wavy coral;
+    text-decoration: underline wavy $decoracion;
     text-underline-offset: 9px;
   }
 }

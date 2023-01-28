@@ -55,12 +55,6 @@ h1 {
   font-size: 1.2rem;
 }
 
-.btn-info {
-  font-size: 1.1rem;
-  margin: 20px;
-  font-weight: bold;
-}
-
 .texto-negro {
   color: black;
 }
@@ -80,8 +74,7 @@ h1 {
 .navbar .navbar-collapse .navbar-brand img {
   width: 180px;
 }
-
-.navbar-main .active {
+.navbar .active {
   -webkit-text-decoration: underline wavy coral;
           text-decoration: underline wavy coral;
   text-underline-offset: 9px;
@@ -98,8 +91,10 @@ h1 {
 .hero .hero-principal .hero-principal h2 {
   font-size: 1.5rem;
 }
-.hero .hero-inferrior-imagen {
-  height: 100vh;
+.hero .hero-inferior iframe {
+  width: 80%;
+  height: 300px;
+  padding: 20px;
 }
 
 .nosotros {
@@ -303,35 +298,37 @@ h1 {
   color: black;
 }
 
-.container form {
-  min-width: 300px;
-  padding: 20px;
+.contacto-inferior form {
+  padding: 10px;
   margin: 10px;
-  align-content: space-around;
   color: black;
   box-shadow: inset 0 -3em 3em rgba(102, 144, 233, 0.753), 0 0 0 2px rgba(29, 7, 235, 0.527), 0.3em 0.3em 1em rgba(12, 72, 128, 0.952);
 }
-.container form button {
+.contacto-inferior form button {
   color: black;
   font-weight: bold;
   background-color: transparent;
   border: 2px solid black;
-  padding: 1.25em 2em;
+  padding: 1em;
   margin: 10px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
 }
-.container form button:hover {
+.contacto-inferior form button:hover {
   background-color: black;
   color: white;
 }
-.container form button i {
+.contacto-inferior form button i {
   color: black;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
-.container form button:hover i {
+.contacto-inferior form button:hover i {
   color: white;
+}
+.contacto-inferior .video-contacto {
+  width: 100%;
+  height: 400px;
 }
 
 footer {
@@ -376,18 +373,26 @@ footer .derechos-de-autor {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
+  text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .overlay p {
     font-size: 18px;
   }
+  .carousel-inner {
+    padding-top: 100px;
+  }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
   }
   .hero-inferior {
+    flex-direction: column;
+  }
+  .contacto-inferior {
+    display: flex;
     flex-direction: column;
   }
 }

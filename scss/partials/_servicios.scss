@@ -1,5 +1,5 @@
 .servicios-contenedor{
-  padding: 40px;
+  padding: 50px;
   .servicios-encabezado{
     max-width: 600px;
     text-align: center;
@@ -17,10 +17,11 @@
       border-radius: 10px;
       display: block;
       transition: all 0.2s ease;
+      opacity: 0.1;
     }
     .overlay{
       transition: all 0.2s ease;
-      opacity: 0;
+      opacity: 1;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -30,10 +31,12 @@
         font-size: 25px;
         font-weight: bold;
         margin-bottom: 0;
+        color: $decoracion;
+        text-shadow: 1px 1px 1px $texto-oscuro;;
       }
     }
     &:hover img{
-      opacity: 0.2;
+      opacity: 0.6;
     }
     &:hover .overlay{
       opacity: 1;

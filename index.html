@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-
     <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,6 +17,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,19 +58,19 @@
     </nav>
 
     <!-- Seccion Hero -->
-    <section  class="hero align-items-strech">
-      <div class="container-fluid hero-principal d-flex flex-column justify-content-center align-items-center seccion-oscura position-relative shadow">
+    <section  class="hero d-flex flex-column justify-content-center align-items-center">
+      <div class="container-fluid hero-principal seccion-oscura position-relative shadow">
         <h1 class="seccion-titulo">MI KAPITAL</h1>
         <h2 class="texto-blanco">Consultora de Recursos Humanos</h2>
-        <p>¡Comencemos a trabajar juntos! Asesorate con nosotros. <br> Conocé todos nuestros servicios  de asesoría estratégica y funcional.<br><a href="./pages/contacto.html" real="noopener noreferrer"><br><strong>¡CONTACTANOS!</strong></a></p>
+        <p>¡Comencemos a trabajar juntos! Asesorate con nosotros. <br> Conocé todos nuestros servicios  de asesoría estratégica y funcional.<br><a data-aos="zoom-in" href="./pages/contacto.html" real="noopener noreferrer"><br><strong>¡CONTACTANOS!</strong></a></p>
       </div>
   
       <div class="hero-intermedio d-flex flex-column justify-content-arround align-items-center">
         <h3>NUESTRO MÉTODO DE TRABAJO SE SOSTIENE EN CINCO PILARES</h2>
         <div class="container hero-intermedio-imagen">
-          <div class="ratio ratio-4x3" style="position: relative; width: 100%; height: 0; padding-top: 50.0000%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;will-change: transform;">
-            <iframe loading="lazy" style="position: absolute; width: 100%; height:0; top: 0; left: 0;  border: none; padding: 0;margin: 0;"
-              src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFYMnzZN74&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+          <div class="ratio ratio-4x3" style="position: relative; width: 100%; height: 0; padding-top: 50.0000%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;  border: none; padding: 0;margin: 0;"
+             src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFYMnzZN74&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
             </iframe>
           </div>
         </div>
@@ -86,14 +87,13 @@
           <div class="col-12 col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48306.192448101625!2d-63.035159123604025!3d-40.824953755593626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95f698126201d8c5%3A0xc439042877c7ae8!2sViedma%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1674140416798!5m2!1ses!2sar" alt="Mapa de ubicación" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>
           </div>
-          
+        </div>
        </div>
-      </div>
     </section>
   
     <!-- Footer -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-      <img class="footer-logo" src="../assets/images/footer.png" alt="Logo de la consultora">
+      <img data-aos="flip-left" class="footer-logo" src="../assets/images/footer.png" alt="Logo de la consultora">
       <p class="footer-texto text-center">Creamos oportunidades. <br>Potenciamos el talento.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
@@ -117,5 +117,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

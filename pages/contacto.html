@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,17 +57,20 @@
       </div>
     </nav>
 
-    <section class="encabezado-contacto seccion-oscura text-center">
+    <!-- Encabezado contacto -->
+    <section class="encabezado-contacto seccion-oscura text-center d-flex flex-column justify-content-center align-items-center">
       <h3 class="seccion-titulo">
         CONTÁCTENOS
       </h3>
       <p class="parrafo-contacto">Si estás interesado en conocer más sobre nuestros servicios o queres que nos comuniquemos con vos, envíanos tu consulta ingresando al siguiente enlace, serás contactado a la brevedad por uno de nuestros asesores para un asesoramiento personalizado. <br>¡Muchas gracias por visitar nuestro sitio!</p>
     </section>
 
+    <!-- Tarjeta para contacto -->
     <section class="contacto seccion-clara">
-      <div class="container">
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom" class="container">
         <div class="text-center rectangulo d-flex justify-content-evenly align-items-center">
-          <div class="row">
+          <div class="row d-flex align-items-center">
             <div class="col-12 col-md-4 seccion-titulo">
               ¡Hablemos!
             </div>
@@ -84,7 +89,8 @@
         </div>
       </div>
     </section>
-      
+     
+    <!-- Formulario de contacto y video-->
     <section class="contacto-inferior d-flex flex-row flex-wrap justify-content-evenly align-items-center">
       <div class="row">
         <form class="col">
@@ -113,7 +119,7 @@
             <input id="casilla" type="checkbox">Quiero recibir el Newletter</label>
           </div>
   
-          <button class="btn-info" type="submit" value="Enviar"> Enviar
+          <button class="btn-info" type="submit" value="Enviar">Enviar
             <i class="bi bi-check-circle-fill"></i>
           </button>
           <button class="btn-info" type="reset" value="Resetear">Resetear
@@ -135,7 +141,7 @@
 
     <!-- Footer -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-      <img class="footer-logo" src="../assets/images/footer.png" alt="Logo de la consultora">
+      <img data-aos="flip-left" class="footer-logo" src="../assets/images/footer.png" alt="Logo de la consultora">
       <p class="footer-texto text-center">Creamos oportunidades. <br>Potenciamos el talento.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
@@ -159,16 +165,10 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
-
-
-
-
-
-
-
-         
-  
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 
   </body>
