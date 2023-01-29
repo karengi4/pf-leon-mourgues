@@ -21,14 +21,10 @@
         border-radius: 10%;
       }
       .nosotros-titulo{
-        font-size: 25px;
-        font-weight: bold;
-        margin: 10px 0;
+        @include nosotros (25px, bold, 10px 0);
       }
       .badge-contenedor{
-        font-size: 20px;
-        font-weight: bold;
-        margin: 10px 0;
+        @include nosotros (20px, bold, 10px 0);
         .badge{
           margin: 5px;
         }

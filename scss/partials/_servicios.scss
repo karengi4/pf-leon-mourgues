@@ -22,9 +22,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
        h3{
-        font-size: 25px;
-        font-weight: bold;
-        margin-bottom: 0;
+        @include nosotros (25px, bold, o);
         color: $decoracion;
         text-shadow: 1px 1px 1px $texto-oscuro;
       }
