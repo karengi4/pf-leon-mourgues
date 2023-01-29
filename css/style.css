@@ -230,6 +230,9 @@ footer {
   footer .iconos-redes-sociales a {
     width: 50px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2px;
     margin: 10px;
     border: 2px solid white;
