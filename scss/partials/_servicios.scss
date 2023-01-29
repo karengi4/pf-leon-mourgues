@@ -2,7 +2,6 @@
   padding: 50px;
   .servicios-encabezado{
     max-width: 600px;
-    text-align: center;
   }
 }
 .servicios-listado{
@@ -13,7 +12,6 @@
     img{
       height:100%;
       width: 100%;
-      padding: 10px;
       border-radius: 10px;
       display: block;
       transition: all 0.2s ease;
@@ -26,7 +24,6 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      text-align: center;
        h3{
         font-size: 25px;
         font-weight: bold;
