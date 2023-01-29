@@ -95,32 +95,28 @@ h1 {
         .nosotros-inferior .columna:hover .badge-contenedor .badge {
           margin: 5px; }
 
-.testimonios {
-  padding: 40px 40px 80px 40px; }
-  .testimonios .carousel {
-    max-width: 800px; }
-    .testimonios .carousel .carousel-item {
-      height: 500px; }
-      .testimonios .carousel .carousel-item .container {
-        width: 100%;
-        height: 100%; }
-        .testimonios .carousel .carousel-item .container .testimonio-imagen {
-          height: 150px;
-          width: 150px;
-          margin: 10px 10px 20px 10px; }
-        .testimonios .carousel .carousel-item .container .testimonio-texto {
-          max-width: 70%;
-          font-size: 20px;
-          font-family: 'Share Tech Mono', monospace; }
-        .testimonios .carousel .carousel-item .container .testimonio-info {
-          font-weight: bold; }
-          .testimonios .carousel .carousel-item .container .testimonio-info p {
-            margin-bottom: 0; }
+.testimonios .carousel {
+  max-width: 800px; }
+  .testimonios .carousel .carousel-item {
+    height: 500px; }
+    .testimonios .carousel .carousel-item .container {
+      width: 100%;
+      height: 100%; }
+      .testimonios .carousel .carousel-item .container .testimonio-imagen {
+        height: 150px;
+        width: 150px;
+        margin: 10px 10px 20px 10px; }
+      .testimonios .carousel .carousel-item .container .testimonio-texto {
+        max-width: 70%;
+        font-size: 20px;
+        font-family: 'Share Tech Mono', monospace; }
+      .testimonios .carousel .carousel-item .container .testimonio-info {
+        font-weight: bold; }
+        .testimonios .carousel .carousel-item .container .testimonio-info p {
+          margin-bottom: 0; }
 
 .servicios-contenedor {
   padding: 50px; }
-  .servicios-contenedor .servicios-encabezado {
-    max-width: 600px; }
 
 .servicios-listado {
   padding-top: 60px;
@@ -154,12 +150,9 @@ h1 {
 
 .busquedas {
   padding: 50px; }
-  .busquedas .contenedor {
-    max-width: 600px; }
 
 .busquedas-listado {
-  min-height: 500px;
-  padding: 30px; }
+  min-height: 500px; }
   .busquedas-listado .card {
     width: 80%;
     max-width: 600px;
@@ -264,34 +257,13 @@ footer {
     color: #584e4e;
     padding: 20px; }
 
-@media screen and (max-width: 800px) {
-  .testimonio-imagen {
-    height: 120px;
-    width: 120px; }
-  .testimonio-texto {
-    font-size: 18px; } }
-
 @media screen and (max-width: 768px) {
   .navbar-brand {
-    display: none; }
-  .hero-inferior {
-    flex-direction: column; }
-  .contacto-inferior {
-    display: flex;
-    flex-direction: column; } }
+    display: none; } }
 
 @media screen and (max-width: 425px) {
-  .overlay p {
-    font-size: 18px; }
   .contacto .container .rectangulo {
     margin-top: 0rem; }
   .carousel-inner {
-    padding-top: 120px;
-    padding-bottom: 120px; } }
-
-@media screen and (max-width: 320px) {
-  .carousel-inner {
-    padding-top: 180px;
-    padding-bottom: 180px; }
-  .servicios img {
-    opacity: 0.5; } }
+    padding: 30px 0 30px 0;
+    line-height: normal; } }

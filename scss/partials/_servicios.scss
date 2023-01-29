@@ -1,8 +1,5 @@
 .servicios-contenedor{
   padding: 50px;
-  .servicios-encabezado{
-    max-width: 600px;
-  }
 }
 .servicios-listado{
   padding-top: 60px;
@@ -29,7 +26,7 @@
         font-weight: bold;
         margin-bottom: 0;
         color: $decoracion;
-        text-shadow: 1px 1px 1px $texto-oscuro;;
+        text-shadow: 1px 1px 1px $texto-oscuro;
       }
     }
     &:hover img{
