@@ -10,7 +10,7 @@
     <!-- Titulo -->
     <title>Mi Kapital | Contacto</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./assets/images/logofavicon.ico">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Iconos de Bootstrap -->
@@ -27,120 +27,126 @@
 
   <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbar-toggler">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../assets/images/footer.png" width="150" alt="Logo de la consultora">
-          </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/busquedas.html">Busquedas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light p-1">
+        <div class="container-fluid justify-content-beetween">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-evenly" id="navbar-toggler">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/images/footer.png" width="150" alt="Logo de la consultora">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/busquedas.html">Busquedas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <!-- Encabezado contacto -->
-    <section class="encabezado-contacto seccion-oscura text-center d-flex flex-column justify-content-center align-items-center">
-      <h3 class="seccion-titulo">
-        CONTÁCTENOS
-      </h3>
-      <p class="parrafo-contacto">Si estás interesado en conocer más sobre nuestros servicios o queres que nos comuniquemos con vos, envíanos tu consulta ingresando al siguiente enlace, serás contactado a la brevedad por uno de nuestros asesores para un asesoramiento personalizado. <br>¡Muchas gracias por visitar nuestro sitio!</p>
-    </section>
+    <main>
+      <section class="encabezado-contacto seccion-oscura text-center d-flex flex-column justify-content-center align-items-center">
+        <h3 class="seccion-titulo">
+          CONTÁCTENOS
+        </h3>
+        <p class="parrafo-contacto">Si estás interesado en conocer más sobre nuestros servicios o queres que nos comuniquemos con vos, envíanos tu consulta ingresando al siguiente enlace, serás contactado a la brevedad por uno de nuestros asesores para un asesoramiento personalizado. <br>¡Muchas gracias por visitar nuestro sitio!</p>
+      </section>
 
-    <!-- Tarjeta para contacto -->
-    <section class="contacto seccion-clara">
-      <div data-aos="fade-up"
-      data-aos-duration="3000" class="container">
-        <div class="text-center rectangulo d-flex justify-content-evenly align-items-center">
-          <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-4 seccion-titulo">
-              ¡Hablemos!
-            </div>
-            <div class="col-12 col-md-4 descripcion">
-              Quiero recibir mi asesoramiento personalizado.
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="mailto:mikapital@miemail.com">
-                <button type="button">
-                  Contacto
-                  <i class="bi bi-envelope-check-fill"></i>
-                </button>
-              </a>
+      <!-- Tarjeta para contacto -->
+      <section class="contacto seccion-clara">
+        <div data-aos="fade-up"
+        data-aos-duration="3000" class="container">
+          <div class="text-center rectangulo d-flex justify-content-evenly align-items-center">
+            <div class="row d-flex align-items-center">
+              <div class="col-12 col-md-4 seccion-titulo">
+                ¡Hablemos!
+              </div>
+              <div class="col-12 col-md-4 descripcion">
+                Quiero recibir mi asesoramiento personalizado.
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="mailto:mikapital@miemail.com">
+                  <button type="button">
+                    Contacto
+                    <i class="bi bi-envelope-check-fill"></i>
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-     
-    <!-- Formulario de contacto y video-->
-    <section class="contacto-inferior d-flex flex-row flex-wrap justify-content-evenly align-items-center">
-      <div class="row">
-        <form class="col">
-          <div class="mb-3">
-            <label for="nombre" class="form-label ">Nombre y apellido</label>
-            <input id="nombre" class="form-control form-control-sm" type="text" placeholder="Ingrese su nombre y apellido">
-          </div>
-  
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo electrónico</label>
-            <input id="email" class="form-control form-control-sm" type="text" placeholder="Ingrese su email">
-          </div>
-          
-          <div class="mb-3">
-            <label for="telefono" class="form-label">Numero telefónico</label>
-            <input id="telefono" class="form-control form-control-sm" type="" placeholder="Sin el 0 y sin el 15">
-          </div>
-  
-          <div class="mb-3">
-            <label class="form-label">Escribe tu consulta:</label>
-            <textarea id="comentarios" class="form-control"></textarea>
-          </div>
-  
-          <div class="mb-3">
-            <label for="casilla">
-            <input id="casilla" type="checkbox">Quiero recibir el Newletter</label>
-          </div>
-  
-          <button class="btn-info" type="submit" value="Enviar">Enviar
-            <i class="bi bi-check-circle-fill"></i>
-          </button>
-          <button class="btn-info" type="reset" value="Resetear">Resetear
-            <i class="bi bi-x-square-fill"></i>
-          </button>
-        </form>
-      </div>
+      </section>
+      
+      <!-- Formulario de contacto y video-->
+      <section class="contacto-inferior d-flex flex-row flex-wrap justify-content-evenly align-items-center">
+        <div class="row justify-content-center w-75">
+          <form class="col-md-6 m-4">
+            <div class="mb-3">
+              <label for="nombre" class="form-label ">Nombre y apellido</label>
+              <input id="nombre" class="form-control form-control-sm" type="text" placeholder="Ingrese su nombre y apellido">
+            </div>
     
-      <div>
-        <iframe class="video-contacto"
-          src="https://www.youtube.com/embed/YxgKyjy5qeE" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
-      </div> 
-    </section>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input id="email" class="form-control form-control-sm" type="text" placeholder="Ingrese su email">
+            </div>
+            
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Numero telefónico</label>
+              <input id="telefono" class="form-control form-control-sm" type="" placeholder="Sin el 0 y sin el 15">
+            </div>
+    
+            <div class="mb-3">
+              <label class="form-label">Escribe tu consulta:</label>
+              <textarea id="comentarios" class="form-control"></textarea>
+            </div>
+    
+            <div class="mb-3">
+              <label for="casilla">
+              <input id="casilla" type="checkbox">Quiero recibir el Newletter</label>
+            </div>
+    
+            <div class="d-flex justify-content-center flex-wrap">
+              <button class="btn-info" type="submit" value="Enviar">Enviar
+                <i class="bi bi-check-circle-fill"></i>
+              </button>
+              <button class="btn-info" type="reset" value="Resetear">Resetear
+                <i class="bi bi-x-square-fill"></i>
+              </button>
+            </div>
+          </form>
+      
+          <div class="d-flex justify-content-center m-4">
+            <iframe class="video-contacto"
+              src="https://www.youtube.com/embed/YxgKyjy5qeE" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div> 
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center mt-2">
       <img data-aos="flip-left" class="footer-logo" src="../assets/images/footer.png" alt="Logo de la consultora">
       <p class="footer-texto text-center">Creamos oportunidades. <br>Potenciamos el talento.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">

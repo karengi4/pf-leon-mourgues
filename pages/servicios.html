@@ -10,7 +10,7 @@
     <!-- Titulo -->
     <title>Mi Kapital | Servicios</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./assets/images/logofavicon.ico">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Iconos de Bootstrap -->
@@ -27,125 +27,129 @@
 
   <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbar-toggler">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../assets/images/footer.png" width="150" alt="Logo de la consultora">
-          </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./busquedas.html">Busquedas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light p-1">
+        <div class="container-fluid justify-content-beetween">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-evenly" id="navbar-toggler">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/images/footer.png" width="150" alt="Logo de la consultora">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./busquedas.html">Busquedas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <!-- Servicios encabezado -->
-    <section class="servicios-contenedor seccion-oscura d-flex flex-column justify-content-center align-items-center">
-      <div class="servicios-encabezado text-center">
-        <h2 class="seccion-titulo">SERVICIOS</h2>
-        <p class="seccion-descripcion">Nuestros profesionales especializados ofrecen una amplia gama de servicios para garantizar el acceso a las mejores soluciones en la gestión de talento.<br> Además brindamos soluciones a la medida de cada empresa.</p>
-      </div>
-    </section>
+    <main>
+      <section class="servicios-contenedor seccion-oscura d-flex flex-column justify-content-center align-items-center">
+        <div class="servicios-encabezado text-center">
+          <h2 class="seccion-titulo">SERVICIOS</h2>
+          <p class="seccion-descripcion">Nuestros profesionales especializados ofrecen una amplia gama de servicios para garantizar el acceso a las mejores soluciones en la gestión de talento.<br> Además brindamos soluciones a la medida de cada empresa.</p>
+        </div>
+      </section>
 
-    <!-- Detalle de servicios -->
-    <section class="seccion-clara d-flex flex-column justify-content-center align-items-center">  
-      <div class="container text-center servicios-listado">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
-            <div class="servicios">
-              <img src="../assets/images/busqueda.webp" alt="Búsqueda y Selección">
-              <div class="overlay">
-                <h3>Búsqueda y Selección</h3>
+      <!-- Detalle de servicios -->
+      <section class="seccion-clara d-flex flex-column justify-content-center align-items-center">  
+        <div class="container text-center servicios-listado">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
+              <div class="servicios">
+                <img src="../assets/images/busqueda.webp" alt="Búsqueda y Selección">
+                <div class="overlay">
+                  <h3>Búsqueda y Selección</h3>
+                </div>
+              </div>
+              <div>
+                <p>Llevamos a cabo la totalidad del proceso de búsqueda y selección de recursos humanos, o acompañamos a nuestros clientes en alguna de las etapas del mismo, con el objetivo de encontrar la persona más calificada y apta para ocupar el puesto vacante. Para ello, contamos con recursos y tecnología que garantizan la gestión del proceso.</p>
               </div>
             </div>
-            <div>
-              <p>Llevamos a cabo la totalidad del proceso de búsqueda y selección de recursos humanos, o acompañamos a nuestros clientes en alguna de las etapas del mismo, con el objetivo de encontrar la persona más calificada y apta para ocupar el puesto vacante. Para ello, contamos con recursos y tecnología que garantizan la gestión del proceso.</p>
-            </div>
-          </div>
 
-          <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
-            <div class="servicios">
-              <img src="../assets/images/gestion.webp" alt="Gestión del talento">
-              <div class="overlay">
-                <h3>Gestión integral del Talento</h3>
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
+              <div class="servicios">
+                <img src="../assets/images/gestion.webp" alt="Gestión del talento">
+                <div class="overlay">
+                  <h3>Gestión integral del Talento</h3>
+                </div>
+              </div>
+              <div>
+                <p>Ponemos en marcha distintos procesos como el análisis de la estructura organizacional, los perfiles de puesto, las evaluaciones de desempeño, la redaccion de procedimientos del area de RRHH, los manuales de convivencia o de competencias y las encuestas de clima organizacional, ingreso/egreso de personal, liderazgo, entre otras.</p>
               </div>
             </div>
-            <div>
-              <p>Ponemos en marcha distintos procesos como el análisis de la estructura organizacional, los perfiles de puesto, las evaluaciones de desempeño, la redaccion de procedimientos del area de RRHH, los manuales de convivencia o de competencias y las encuestas de clima organizacional, ingreso/egreso de personal, liderazgo, entre otras.</p>
-            </div>
-          </div>
-          
-          <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
-            <div class="servicios">
-              <img src="../assets/images/desarrollo-profesional (1).webp" alt="Evaluación y desarrollo">
-              <div class="overlay">
-                <h3>Evaluación y Desarrollo profesional</h3>
+            
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
+              <div class="servicios">
+                <img src="../assets/images/desarrollo-profesional (1).webp" alt="Evaluación y desarrollo">
+                <div class="overlay">
+                  <h3>Evaluación y Desarrollo profesional</h3>
+                </div>
+              </div>
+              <div>
+                <p>Este proceso se aplica especialmente para valorar los recursos y las competencias con las que cuenta el candidato interno para reubicarlo en nuevas posiciones jerárquicas. El resultado de esta evaluación permitirá diseñar planes de desarrollo profesional o de capacitaciones acorde a la nueva posición.</p>
               </div>
             </div>
-            <div>
-              <p>Este proceso se aplica especialmente para valorar los recursos y las competencias con las que cuenta el candidato interno para reubicarlo en nuevas posiciones jerárquicas. El resultado de esta evaluación permitirá diseñar planes de desarrollo profesional o de capacitaciones acorde a la nueva posición.</p>
-            </div>
-          </div>
 
-          <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
-            <div class="servicios">
-              <img src="../assets/images/formacion (1).webp" alt="Capacitación y formación">
-              <div class="overlay">
-                <h3>Capacitación y formación</h3>
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
+              <div class="servicios">
+                <img src="../assets/images/formacion (1).webp" alt="Capacitación y formación">
+                <div class="overlay">
+                  <h3>Capacitación y formación</h3>
+                </div>
+              </div>
+              <div>
+                <p>Brindamos capacitaciones de RRHH a empresas en función de sus necesidades, elaboradas por profesionales idóneos en cada temática en particular. Analizamos y asesoramos al cliente para elegir la temática y el curso adecuado, para que la capacitación sea una herramienta que le permita sumar valor.</p>
               </div>
             </div>
-            <div>
-              <p>Brindamos capacitaciones de RRHH a empresas en función de sus necesidades, elaboradas por profesionales idóneos en cada temática en particular. Analizamos y asesoramos al cliente para elegir la temática y el curso adecuado, para que la capacitación sea una herramienta que le permita sumar valor.</p>
-            </div>
-          </div>
 
-          <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
-            <div class="servicios">
-              <img src="../assets/images/compensacion.webp" alt="Compensacion y beneficios">
-              <div class="overlay">
-                <h3>Compensación y beneficios</h3>
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
+              <div class="servicios">
+                <img src="../assets/images/compensacion.webp" alt="Compensacion y beneficios">
+                <div class="overlay">
+                  <h3>Compensación y beneficios</h3>
+                </div>
+              </div>
+              <div>
+                <p>Para tener una relación exitosa con tus empleados es fundamental que el trabajo sea correctamente remunerado. Nosotros te ayudamos a desarrollar políticas exitosas que se encuentren alineadas con los objetivos comerciales, la cultura y los valores de la empresa con el obejtivo de tener empleados satisfechos.</p>
               </div>
             </div>
-            <div>
-              <p>Para tener una relación exitosa con tus empleados es fundamental que el trabajo sea correctamente remunerado. Nosotros te ayudamos a desarrollar políticas exitosas que se encuentren alineadas con los objetivos comerciales, la cultura y los valores de la empresa con el obejtivo de tener empleados satisfechos.</p>
-            </div>
-          </div>
 
-          <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
-            <div class="servicios">
-              <img src="../assets/images/asesoria.webp" alt="Asesoria personalizada">
-              <div class="overlay">
-                <h3>Asesoría personalizada</h3>
+            <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up">
+              <div class="servicios">
+                <img src="../assets/images/asesoria.webp" alt="Asesoria personalizada">
+                <div class="overlay">
+                  <h3>Asesoría personalizada</h3>
+                </div>
               </div>
-            </div>
-            <div>
-              <p>A través de este asesoramiento integral externo, nuestros clientes delegan su Gestión Interna vinculada a la Administración de lo Recursos Humanos, obteniendo como resultado un acompañamiento estratégico, estable y a largo plazo. Brindamos la flexibilidad requerida para adecuarnos a sus necesidades y la objetividad externa necesaria.</p>
+              <div>
+                <p>A través de este asesoramiento integral externo, nuestros clientes delegan su Gestión Interna vinculada a la Administración de lo Recursos Humanos, obteniendo como resultado un acompañamiento estratégico, estable y a largo plazo. Brindamos la flexibilidad requerida para adecuarnos a sus necesidades y la objetividad externa necesaria.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center mt-2">
       <img data-aos="flip-left" class="footer-logo" src="../assets/images/footer.png" alt="Logo de la consultora">
       <p class="footer-texto text-center">Creamos oportunidades.<br>Potenciamos el talento.</p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">

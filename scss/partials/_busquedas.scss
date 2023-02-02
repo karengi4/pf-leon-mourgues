@@ -11,5 +11,11 @@
     .card-header{
       font-weight: bold;
     }
+    .btn-outline-naranja{
+      @include botones;
+    }
   }
+}
+.container .btn-outline-naranja{
+  @include botones;
 }
